@@ -1,0 +1,77 @@
+<!Doctype html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jquery Basics</title>
+	<link rel="stylesheet" type="text/css" href="stan.css">
+	<style type="text/css">
+		#box1, #box2, #box3, #box4{
+			width: 200px;
+			height: 200px;
+			background-color: blue;
+		}
+		#box2{
+			background-color: white;
+		}
+		#box3{
+			background-color: red;
+		}
+		#box4{
+			background-color: none;
+			animation: rota 2s infinite ;
+		}
+	
+		
+
+		@keyframes rota{
+			0%{
+				transform: rotate(0deg);
+			}
+			100%{
+				transform: rotate(360deg);
+			}
+
+		}
+
+		#h1{
+			background-color: none;
+			animation: rota 2s infinite linear;
+		}
+          
+@keyframes rota{
+			0%{
+				transform: rotate(0deg);
+			}
+			100%{
+				transform: rotate(360deg);
+			}
+
+		}
+
+
+	</style>
+</head>
+<body>
+	<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+  <a href="#visit us">Visit Us</a>
+  <a href="#Bio">Bio</a>
+  <a href="#Monuments">Monuments</a>
+  
+</div>
+	<h1><img src="file:///Users/stantheman/Downloads/IMG_4227.jpg">REBUILD</h1>
+	<div id="box1"><h2>L'UNION</h2></div>
+	<div id="box2"><h2>FAIT</h2></div>
+	<div id="box3"><h2>LA FORCE</h2></div>
+	<div id="box4"><img src="http://solarey.net/wp-content/uploads/2015/11/Haitian-Revolution-1804-Tattoos-391-1024x768.jpg"></div>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+
+	<script type="text/javascript" src="jquery-basics.js"></script>
+
+</body>
+</html>
